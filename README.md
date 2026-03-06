@@ -15,7 +15,7 @@ The core application source code is maintained privately.
 You can download the latest Windows installer from the Releases section.
 
 👉 **Download here:**  
-https://github.com/chatyshop/devland_products/releases
+https://github.com/chatyshop/chaty_devops/releases
 
 ---
 
