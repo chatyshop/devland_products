@@ -126,9 +126,9 @@ Chaty DevOps supports any Linux server accessible via SSH, including:
 
 ## 📦 Latest Version
 
-Current Release: **v1.2.4**  
+Current Release: **v1.2.5**  
 Status: Early Access  
-Release Date: March 2026
+Release Date: 12 March 2026
 
 See full release notes in the **Releases** section.
 
