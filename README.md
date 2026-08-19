@@ -19,20 +19,20 @@ Download the latest available package from [Releases](https://github.com/chatysh
 
 ## Latest release
 
-**Current release:** v1.2.9  
+**Current release:** v1.3.0  
 **Status:** Early Access  
-**Release date:** 26 July 2026
+**Release date:** 19 August 2026
 
-### v1.2.9 highlights
+### v1.3.0 highlights
 
-- Terminal workspaces, tabs, and selected servers persist while moving between app modules.
-- SFTP now reports transfer progress, speed, completion, cancellation, retry options, and possible partial files.
-- Deploy includes clearer pre-flight checks, build-command guidance, and actionable failure output.
-- Monitoring includes uptime and consistent server health data; poll intervals can be configured per environment.
-- Logs can flag high-rate suspicious scanning and show an in-app alert with the affected server, IP, and sample paths.
-- Nginx configuration testing and application discovery are improved, with reverse-proxy health visibility.
-- AWS VPS management supports instance resizing, EBS volume resizing, environment assignment, and clearer monthly estimates.
-- API Test includes saved request history.
+- Deploy now saves service settings on each server for one-click dry runs and redeployments.
+- Upload, inspect, edit, add, remove, and securely apply environment variables without including `.env` files in normal project uploads.
+- Environment changes restart PM2 applications with updated variables; static and custom deployments rerun their saved deployment command.
+- Deployment activity includes clearer progress, compact live logs, and cancellation controls.
+- Nginx can discover existing deployed services and prepare them for deployment configuration on a new PC.
+- SSL setup supports optional `www` and additional comma-separated domains, with automatic certificate renewal setup.
+- SSL and Health now inspect Nginx's active configuration, improving support for sites created by earlier app versions or custom config filenames.
+- Linux AppImage and Windows installer builds are available for this release.
 
 See the release notes for package-specific changes and installation instructions.
 
